@@ -1,0 +1,47 @@
+body {
+  height: 100%;
+  padding-bottom: 80px;
+}
+
+.container-fluid #content {
+  align-content: center;
+  text-align: center;
+}
+
+.container-fluid .carousel {
+  float: none;
+}
+.container-fluid .carousel img {
+  width: auto;
+  max-width: 100%;
+  height: auto;
+}
+.container-fluid #content ul {
+  list-style: none;
+}
+.container-fluid #content ul li {
+  text-decoration: none;
+}
+.container-fluid #content ul li a {
+  color: #0793b6;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 80px;
+}
+
+@media (min-width: 500px) {
+  .footer {
+    background-color: red;
+  }
+}
+@media (max-width: 499px) {
+  .footer {
+    background-color: blue;
+  }
+}
+
+/*# sourceMappingURL=css/main.css.map */

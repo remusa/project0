@@ -1,9 +1,207 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>My Webpage</title>
-    </head>
-    <body>
-        Hello, world!
-    </body>
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>2018 JavaScript Web Frameworks</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ"
+        crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="index.html">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png" width="30" height="30" class="d-inline-block align-top"
+                alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <!-- <a class="nav-item nav-link active" href="#">
+                    <span class="sr-only home">(current)</span>
+                </a> -->
+                <a class="nav-item nav-link" href="page1.html">
+                    <span class="fab fa-react"></span> React
+                </a>
+                <a class="nav-item nav-link" href="page2.html">
+                    <span class="fab fa-vuejs"></span> Vue
+                </a>
+                <a class="nav-item nav-link" href="page3.html">
+                    <span class="fab fa-angular"></span> Angular
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container-fluid">
+        <div class="row">
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <a href="page1.html">
+                            <img class="d-block w-100" src="https://reactjs.org/logo-og.png" alt="First slide">
+                        </a>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="page2.html">
+                            <img class="d-block w-100" src="https://cdn.shopify.com/s/files/1/0533/2089/files/vuejs-tutorial_2d2a853c-aa2f-44b0-80df-933b495f77f8.png?v=1509478492"
+                                alt="Second slide">
+                        </a>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="page3.html">
+                            <img class="d-block w-100" src="https://cdn-images-1.medium.com/max/1600/0*-aAkkhZcr4STwJK1.jpg" alt="Third slide">
+                        </a>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+
+        <div class="row" id="content">
+            <div class="col-4">
+                <h2>React</h2>
+                <p>React is a JavaScript library for building user interfaces. Learn what React is all about on our homepage
+                    or in the tutorial.</p>
+                <ul>
+                    <li>
+                        <a href="https://reactjs.org/">
+                            <span class="fas fa-home"></span> Project
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/facebook/react">
+                            <span class="fab fa-github"></span> Github
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://en.wikipedia.org/wiki/React_(JavaScript_library)">
+                            <span class="fab fa-wikipedia-w"></span> Wikipedia
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/reactjs?lang=en">
+                            <span class="fab fa-twitter"></span> Twitter
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-4">
+                <h2>Vue</h2>
+                <p>Vue (pronounced /vjuː/, like view) is a progressive framework for building user interfaces. </p>
+                <ul>
+                    <li>
+                        <a href="https://vuejs.org/">
+                            <span class="fas fa-home"></span> Project
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/facebook/react">
+                            <span class="fab fa-github"></span> Github
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://en.wikipedia.org/wiki/Vue.js">
+                            <span class="fab fa-wikipedia-w"></span> Wikipedia
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/vuejs/vue">
+                            <span class="fab fa-twitter"></span> Twitter
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-4">
+                <h2>Angular</h2>
+                <p>Angular is a development platform for building mobile and desktop web applications using Typescript/JavaScript
+                    and other languages.
+                </p>
+                <ul>
+                    <li>
+                        <a href="https://angularjs.org/">
+                            <span class="fas fa-home"></span> Project
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/angular/angular">
+                            <span class="fab fa-github"></span> Github
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://en.wikipedia.org/wiki/AngularJS">
+                            <span class="fab fa-wikipedia-w"></span> Wikipedia
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/angular?lang=en">
+                            <span class="fab fa-twitter"></span> Twitter
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <span class="text-muted">Place sticky footer content here.</span>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Link</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            <a href="https://renems.com">
+                                <span class="fas fa-home"></span> Website</a>
+                        </td>
+                        <td>
+                            <a href="https://github.com/remusa">
+                                <span class="fab fa-github"></span> Website</a>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</body>
+
 </html>
