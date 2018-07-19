@@ -11,11 +11,12 @@ body {
 
 .container-fluid {
     .carousel {
-        float: none;
+        // float: none;
         img {
             width: auto;
             max-width: 100%;
-            height: auto; // max-height: 400px;
+            height: auto;
+            max-height: 400px;
         }
     }
     #content {
@@ -29,25 +30,31 @@ body {
                 }
             }
         }
+        p {
+            text-align: justify;
+        }
     }
 }
 
-.footer {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 80px; // background: #fafafa;
+footer {
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    width: 100%; // background: #fafafa;
     // border-top: solid 1px #eee;
+    background-color: #2f2f2f;
+    /* Black Gray */
+    color: #fff;
 }
 
-@media (min-width: 500px) {
-    .footer {
-        background-color: red;
+@media (min-width: 768px) {
+    footer {
+        height: 60px;
     }
 }
 
-@media (max-width: 499px) {
-    .footer {
-        background-color: blue;
+@media (max-width: 767px) {
+    footer {
+        height: 40px;
     }
 }
