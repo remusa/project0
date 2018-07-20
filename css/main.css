@@ -14,6 +14,13 @@ body {
   height: auto;
   max-height: 400px;
 }
+.container-fluid .jumbotron img {
+  height: auto;
+  max-height: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 .container-fluid #content ul {
   list-style: none;
 }
